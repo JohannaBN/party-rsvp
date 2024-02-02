@@ -1,0 +1,60 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.form-container {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px pink;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'courier', sans-serif;
+    color: white;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'courier', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.checkbox {
+    font-family: 'courier', sans-serif;
+    
+}
+
+.food-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 2px pink;
+}
+
