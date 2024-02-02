@@ -13,6 +13,7 @@
 </header>       
     
 <body>
+    
     <section class="form-container">
         <form action="https://httpbin.org/anything" method="post">
 
@@ -21,19 +22,19 @@
 
         <div class="form">
             <label>
-                <input type="text" name="name" placeholder="Full name" required>
+                <input type="text" name="name" placeholder="Your full name" required>
             </label>
         </div>
 
         <div class="form">
             <label>
-                <input type="mail" name="mail" placeholder="E-mail" required>
+                <input type="mail" name="mail" placeholder="Your e-mail" required>
             </label>
          </div>
 
         <div class="form">
             <label>
-                <input type="text" name="name" placeholder="Phone number" required>
+                <input type="text" name="phonenumber" placeholder="Your phone number" required>
             </label>
         </div>
 
@@ -43,24 +44,32 @@
 
             <div class="checkbox">Vegetarian
                 <label>
-                    <input type="checkbox" name="vegetarian">
+                    <input type="radio" name="vegetarian">
                 </label>
             </div>
 
             <div class="checkbox">Vegan
                 <label>
-                    <input type="checkbox" name="vegetarian">
+                    <input type="radio" name="vegan">
                 </label>
             </div>
 
             <div class="checkbox">No
                 <label>
-                    <input type="checkbox" name="no">
+                    <input type="radio" name="no">
                 </label>
             </div>
         </div>
 
-        <button>Submit</button>
+        <h3>Any allergies?</h3>
+
+        <div class="form">
+            <label>
+                <input type="text" name="allergies" placeholder="Let us know by writing it here">
+            </label>
+         </div>
+
+        <button>Send</button>
         
     </section>
 </body>
